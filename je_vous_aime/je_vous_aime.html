@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+      <!-- En-tete du document -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+      <meta name="title" content="Je vous aime" />
+      <meta name="description" content="Travail d'artiste de Daniel Rancière" />
+      <meta name="keywords" content"art, daniel, rancière, conceptuel, franche, comté, ecleux, aime" />
+
+      <!-- Indexer et suivre -->
+      <meta name="robots" content="index,follow" />
+
+      <!-- Relier une feuille CSS externe -->
+      <link rel="stylesheet" href="../mon-style.css" type="text/css" />
+
+      <!-- Titre -->
+
+      <title>Je vous aime</title>
+
+      <!-- JavaScript -->
+
+      <script src="../js/slider.js" type="text/javascript"></script>
+
+   </head>
+
+
+   <body onLoad="declare(4,['Je vous aime',
+   'Je vous aime (détail)',
+   'Je vous aime (détail)',
+   'J\'ai fait tout cela parce que je vous aime et pour que vous m\'aimiez',
+   'Je vous aime (détail)'])">
+
+      <!-- Corps de la page -->
+      <header> Je vous aime </header>
+
+      <br> </br>
+
+      <section class="projet-sec">
+         <div class="text-p">
+            <p> Cri d'amour aux visiteurs, cette oeuvre visuelle et sonore présentait mon 
+            coeur battant pour eux de façon ostentatoire.</p>
+            <p> Cette installation fut imaginé et réalisé en 2007 pour la Biennale des arts 
+            plastiques de Besançon. </p>
+         </div>
+      </section>
+
+      <div class="container">
+         <img id="img_c" src="images/fig0.jpg"/ title="Je vous aime">
+         <div onClick="slide(-1)" class="left_holder">
+            <img class="img_lh" src="../images/arrow_left_w.png"/>
+         </div>
+         <div onClick="slide(1)" class="right_holder">
+            <img class="img_rh" src="../images/arrow_right_w.png"/>
+         </div>
+      </div>
+
+   </body>
+
+</html>

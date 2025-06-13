@@ -1,0 +1,171 @@
+header {
+   font-size: 6.5em;
+   text-align: center;
+   font-weight: 800;    
+}
+
+body {
+   font-family: arial, Helvetica, sans-serif;
+   color: white;
+   background-color: black;
+}
+
+.center-sec {
+   width: 60%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.center-sec a {
+   width: 50%;
+   font-size: 3em;
+   font-weight: 800;
+   float: left;
+   margin: 0 auto;
+   text-decoration: none;
+   color: white;
+}
+
+.center-object {
+   margin: 0 auto;
+}
+
+.projet-sec {
+   width: 90%;
+   margin: 0 auto;
+}
+
+.seca {
+   font-size: 2em;
+   font-weight: 400;
+   padding: 5px;
+   margin: 80px 60px;
+}
+
+.thumbnail-pa {
+   float: left;
+   width: 200px;
+   border: 2px dashed white;
+   margin: 40px 60px 40px 0;
+   padding: 10px;
+}
+
+.thumbnail-pr {
+   float: left;
+   width: 200px;
+   border: 2px solid white;
+   margin: 40px 60px 40px 0;
+   padding: 10px;
+}
+
+.thumbnail-pa a {
+   font-size: 1.5em;
+   font-weight: 200;
+   text-decoration: none;
+   color: white;
+}
+
+.thumbnail-pr a {
+   font-size: 1.5em;
+   font-weight: 200;
+   text-decoration: none;
+   color: white;
+}
+
+.text-p{
+   margin: 40px 60px 40px 0;
+}
+
+.text-p p{
+   text-align: justify;
+   font-size: 1.5em;
+   font-weight: 200;
+}
+
+.text-p a{
+   color: white;
+}
+
+.container{
+   width: 800px;
+   height: 800px;
+   margin: 40px auto;
+   position: relative;
+   border-radius: 4px;
+   overflow: hidden;
+   text-align: center;
+}
+
+#img_c{
+   max-width: 100%;
+   max-height: 100%;
+   width: auto;
+   height: auto;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+}
+
+.left_holder{
+   width: 20%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+
+.img_lh{
+   width: 25%;
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   opacity: 0;
+   transition: all .5s ease-in-out 0s;
+}    
+
+.left_holder:hover .img_lh {
+   opacity: 0.6;
+}
+
+.right_holder{
+   width: 20%;
+   height: 100%;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
+.img_rh{
+   width: 25%;
+   position: absolute;
+   top: 40%;
+   right: 20%;
+   opacity: 0;
+   transition: all .5s ease-in-out 0s;
+}
+
+.right_holder:hover .img_rh {
+   opacity: 0.6;
+}
+
+@media screen and (max-width: 700px) {
+   .center-object {
+      width: 90%;
+   }
+}
+
+@media screen and (max-width: 1000px) {
+   .center-sec a {
+      width: auto;
+      margin: 0 1em
+   }
+}
+
+@media screen and (max-device-height: 600px) {
+   .center-object {
+      height: 80%
+   }
+}

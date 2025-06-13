@@ -1,0 +1,8 @@
+# Ignore object and archive files
+*.[oa]
+#Ignore module files
+*.mod
+# Ignore *~ files
+*~
+# Ignore file info
+.DS_Store

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+      <!-- En-tete du document -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+      <meta name="title" content="Assemblages" />
+      <meta name="description" content="Travail d'artiste de Daniel Rancière" />
+      <meta name="keywords" content"art, daniel, rancière, conceptuel, franche, comté, ecleux, assemblages" />
+
+      <!-- Indexer et suivre -->
+      <meta name="robots" content="index,follow" />
+
+      <!-- Relier une feuille CSS externe -->
+      <link rel="stylesheet" href="../mon-style.css" type="text/css" />
+
+      <!-- Titre -->
+
+      <title>Assemblages</title>
+
+      <!-- JavaScript -->
+
+      <script src="../js/slider.js" type="text/javascript"></script>
+
+   </head>
+
+
+   <body onLoad="declare(5,['Je suis chocolat (2001)',
+   'Je suis... (2003)',
+   'Pirouette (2004)',
+   'Pirouette (2004, détail)',
+   'Reliquaire (2005)',
+   'Reliquaire (2005, détail)'])">
+
+      <!-- Corps de la page -->
+      <header> Assemblages </header>
+
+      <br> </br>
+
+      <section class="projet-sec">
+         <div class="text-p">
+            <p> J'étais alors dans le "faire": réalisé entre 1980 et 2007 tous ces 
+            travaux d'assemblages ont peu à peu évolué vers des installations... </p>
+         </div>
+      </section>
+
+      <div class="container">
+         <img id="img_c" src="images/fig0.jpg"/ title="Je suis chocolat (2001)">
+         <div onClick="slide(-1)" class="left_holder">
+            <img class="img_lh" src="../images/arrow_left_w.png"/>
+         </div>
+         <div onClick="slide(1)" class="right_holder">
+            <img class="img_rh" src="../images/arrow_right_w.png"/>
+         </div>
+      </div>
+
+   </body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+
+      <!-- En-tete du document -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+      <meta name="title" content="La Soue" />
+      <meta name="description" content="Travail d'artiste de Daniel Rancière" />
+      <meta name="keywords" content"art, daniel, rancière, conceptuel, franche, comté, ecleux, soue" />
+
+      <!-- Indexer et suivre -->
+      <meta name="robots" content="index,follow" />
+
+      <!-- Relier une feuille CSS externe -->
+      <link rel="stylesheet" href="../mon-style.css" type="text/css" />
+
+      <!-- Titre -->
+
+      <title>La Soue</title>
+
+      <!-- JavaScript -->
+
+      <script src="../js/slider.js" type="text/javascript"></script>
+
+   </head>
+
+
+   <body onLoad="declare(4,['La Soue sous la pluie',
+   'Attention, traversée de cochons!',
+   'Palimpsestes',
+   'L\'origine du Kleenex',
+   'Plus petit que La Soue: La Coquille!'])">
+
+      <!-- Corps de la page -->
+      <header> La Soue </header>
+
+      <br> </br>
+
+      <section class="projet-sec">
+         <div class="text-p">
+            <p> La Soue c'est un des plus petits centres d'art contemporain de France. Fondé 
+            en 2013 par sa directrice Monique Gliani dans une ancienne soue à cochons. Il a 
+            pour l'instant abriter des expositions à l'été 2013 (Palimpsestes, Daniel Rancière) 
+            et 2014 (L'Origine du Kleenex, Daniel Rancière).</p>
+            <p> N'hésitez pas à me contacter si vous souhaitez exposer à La Soue.</p>
+         </div>
+      </section>
+
+      <div class="container">
+         <img id="img_c" src="images/fig0.jpg" title="La Soue sous la pluie"/>
+         <div onClick="slide(-1)" class="left_holder">
+            <img class="img_lh" src="../images/arrow_left_w.png"/>
+         </div>
+         <div onClick="slide(1)" class="right_holder">
+            <img class="img_rh" src="../images/arrow_right_w.png"/>
+         </div>
+      </div>
+
+   </body>
+
+</html>
